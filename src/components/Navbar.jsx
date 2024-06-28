@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed bg-gradient-to-r from-gray-800 to-gray-600 text-white flex justify-between p-6 z-50 w-full">
-            <h1 className="md:text-3xl text-3xl">Muhammed Shibil</h1>
+            <h1 className="md:text-3xl text-xl">Muhammed Shibil</h1>
             <ul className="hidden md:flex gap-4">
                 {links.map((item) => (
                     <li key={item.id} className="cursor-pointer list-none">
