@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Home = () => {
     return (
-        <main className="min-h-screen relative  bg-gradient-to-r from-gray-800 to-gray-600 flex flex-col items-center justify-center text-white w-screen">
+        <main className="min-h-screen relative bg-gradient-to-r from-gray-800 to-gray-600 flex flex-col items-center justify-center text-white w-full h-full pt-16 md:pt-24">
             <div className="flex flex-col md:flex-row items-center justify-center w-full md:w-auto space-y-6 md:space-y-0 md:space-x-12">
                 <div className="text-center md:text-left md:max-w-md">
                     <h1 className="text-5xl">
@@ -33,7 +33,7 @@ const Home = () => {
                     <div className="w-96 h-96 p-2">
                         <img
                             src={photo}
-                            alt="Rotating"
+                            alt="Profile picture of Muhammed Shibil"
                             className="w-full h-full object-cover rounded-full"
                         />
                     </div>

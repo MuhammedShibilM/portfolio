@@ -12,27 +12,31 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="fixed  bg-gradient-to-r from-gray-800 to-gray-600 text-white flex justify-between p-6 z-50 w-screen">
+        <nav className="fixed bg-gradient-to-r from-gray-800 to-gray-600 text-white flex justify-between p-6 z-50 w-full">
             <h1 className="md:text-3xl text-3xl">Muhammed Shibil</h1>
-            <div className="hidden md:flex gap-4">
+            <ul className="hidden md:flex gap-4">
                 {links.map((item) => (
                     <li key={item.id} className="cursor-pointer list-none">
                         {item.name}
                     </li>
                 ))}
-            </div>
+            </ul>
             <div className="md:hidden">
                 {toggle ? (
                     <FiX
                         size={24}
                         onClick={() => setToggle(!toggle)}
                         className="cursor-pointer z-50 relative"
+                        aria-label="Close menu"
+                        role="button"
                     />
                 ) : (
                     <FiMenu
                         size={24}
                         onClick={() => setToggle(!toggle)}
                         className="cursor-pointer z-50 relative"
+                        aria-label="Open menu"
+                        role="button"
                     />
                 )}
             </div>
