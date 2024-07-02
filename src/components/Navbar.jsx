@@ -12,11 +12,11 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="fixed bg-gradient-to-r from-gray-800 to-gray-600 text-white flex justify-between p-6 z-50 w-full">
+        <nav className="fixed top-0 left-0 w-full flex justify-between items-center p-6 z-50 ">
             <h1 className="md:text-3xl text-xl">Muhammed Shibil</h1>
             <ul className="hidden md:flex gap-4">
                 {links.map((item) => (
-                    <li key={item.id} className="cursor-pointer list-none">
+                    <li key={item.id} className="cursor-pointer list-none hover:border-b-4 hover:border-gray-200">
                         {item.name}
                     </li>
                 ))}
@@ -41,9 +41,9 @@ const Navbar = () => {
                 )}
             </div>
             {toggle && (
-                <ul className="flex flex-col justify-center items-center fixed top-0 left-0 h-screen w-full bg-gradient-to-r from-gray-800 to-gray-600 z-40">
+                <ul className="flex flex-col justify-center items-center fixed top-0 left-0 h-screen w-full bg-white text-black">
                     {links.map((item) => (
-                        <li key={item.id} className="cursor-pointer py-4 capitalize text-2xl">
+                        <li key={item.id} className="cursor-pointer py-4 capitalize text-2xl hover:border-b-4 hover:border-gray-200">
                             {item.name}
                         </li>
                     ))}
