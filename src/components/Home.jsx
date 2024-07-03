@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
     return (
-        <main id='home' className="min-h-screen container mx-auto flex flex-col justify-center items-center md:flex-row md:space-x-6 space-y-2 mt-20 md:mt-0 px-4">
-            <div>
+        <main id='home' className="min-h-screen container mx-auto flex flex-col justify-center items-center md:flex-row md:space-x-6 space-y-2  px-4">
+            <div className="p-20">
                 <div className="flex justify-center items-center rounded-full bg-gray-200 w-60 h-60 md:w-96 md:h-96 overflow-hidden">
                     <img src={photo} alt="" className="h-full w-full object-cover" />
                 </div>
