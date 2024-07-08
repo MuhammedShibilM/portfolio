@@ -2,7 +2,7 @@ import { FaIdBadge } from 'react-icons/fa';
 import photo from '../assets/profile.svg';
 const About=()=>{
     return(
-       <section id="about" className="h-screen w-full container">
+       <section id="about" className="h-screen w-full ">
             <div className="text-center p-20 ">
                 <h1 className="font-semibold text-gray-200 text-sm">Get To Know More</h1>
                 <h1 className="text-4xl font-bold">About me</h1>
@@ -15,15 +15,15 @@ const About=()=>{
                 </div>
                 </div>
                 {/* Datas */}
-                <div className='flex flex-col space-y-3 space-x-2 mx-auto'>
-                    <div className='md:flex justify-between space-y-3 md:space-y-0 px-3'>
-                        <div className='border-2  border-black py-6 md:px-24  rounded-lg flex flex-col items-center space-y-2'>
+                <div className='flex flex-col items-center md:items-stretch     space-y-3 space-x-2 mx-auto'>
+                    <div className='md:flex justify-between  space-y-3 md:space-y-0  px-3'>
+                        <div className='border-2  border-black py-6 md:px-24  rounded-lg flex flex-col items-center space-y-2 min-w-96'>
                             <FaIdBadge size={24}/>
                             <h1 className='text-xl  font-bold'>Experience</h1>
                             <p className='font-semibold text-sm'>1+ year</p>
                             <p className='font-semibold text-sm'>Full Stack Developer</p>
                         </div>
-                        <div className='border-2  border-black py-6 md:px-24 rounded-lg flex flex-col items-center space-y-2'>
+                        <div className='border-2  border-black py-6 md:px-24 rounded-lg flex flex-col items-center space-y-2 min-w-96'>
                             <FaIdBadge size={24}/>
                             <h1 className='text-xl  font-bold'>Education</h1>
                             <p className='font-semibold text-sm text-center'>B.Tech Computer Science <br />and Engineering</p>

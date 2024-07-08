@@ -51,7 +51,7 @@ const Navbar = () => {
             {toggle && (
                 <ul className="flex flex-col justify-center items-center fixed top-0 left-0 h-screen w-full bg-white text-black">
                     {links.map((item) => (
-                        <li key={item.id} className="cursor-pointer py-4 capitalize text-2xl hover:bg-gray-200 hover:border-b-2 hover:border-gray-200">
+                        <li key={item.id} className="cursor-pointer py-4 capitalize text-2xl hover:text-gray-200 ">
                             <a href={item.href} onClick={(e) => handleClick(e, item.href)}>{item.name}</a>
                         </li>
                     ))}
