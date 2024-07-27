@@ -1,19 +1,14 @@
 import { FaIdBadge } from 'react-icons/fa';
-import photo from '../assets/profile.svg';
+
 const About=()=>{
     return(
-       <section id="about" className="h-screen w-full ">
+       <section id="about" className=" w-full md:px-10">
             <div className="text-center p-20 ">
-                <h1 className="font-semibold text-gray-200 text-sm">Get To Know More</h1>
+                <h1 className="font-semibold text-gray-400 text-sm">Get To Know More</h1>
                 <h1 className="text-4xl font-bold">About me</h1>
             </div>
             <div className="flex justify-center items-center lg:space-x-6">
-                {/* image  */}
-                <div className='hidden lg:block'>
-                <div className="flex justify-center items-center rounded-lg bg-gray-200 w-60 h-60 md:w-96 md:h-96 overflow-hidden">
-                    <img src={photo} alt="" className="h-full w-full object-cover grayscale" />
-                </div>
-                </div>
+             
                 {/* Datas */}
                 <div className='flex flex-col items-center md:items-stretch     space-y-3 space-x-2 mx-auto'>
                     <div className='md:flex justify-between  space-y-3 md:space-y-0  px-3'>
@@ -31,11 +26,11 @@ const About=()=>{
                     </div>
                     <div className='font-semibold p-3'>
                         <p className='leading-relaxed'>
-                        Hello, I'm Muhammed Shibil M, currently pursuing a BTech in Computer Science and Engineering at Eranad Knowledge City Technical Campus College, Mallapuram. <br />
+                        Hello, I'm Muhammed Shibil M, currently pursuing a BTech in Computer Science and Engineering at Eranad Knowledge City Technical Campus College, Malappuram. 
 
-I am passionate about Flutter and web development, where I thrive on turning lines of code into meaningful experiences. <br /> Proficient in CSS, JavaScript, HTML, and Java, I enjoy crafting seamless user interfaces and exploring backend intricacies. <br />
+I am passionate about Flutter and web development, where I thrive on turning lines of code into meaningful experiences. Proficient in CSS, JavaScript, HTML, and Java, I enjoy crafting seamless user interfaces and exploring backend intricacies.
 
-Continuously expanding my skills, I'm committed to staying ahead in the ever-evolving tech landscape. <br /> Whether pushing the boundaries of Flutter or mastering Git, I'm driven by the learning journey. <br />
+Continuously expanding my skills, I'm committed to staying ahead in the ever-evolving tech landscape.  Whether pushing the boundaries of Flutter or mastering Git, I'm driven by the learning journey. 
                         </p>
                     </div>
                 </div>

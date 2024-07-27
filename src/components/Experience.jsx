@@ -19,12 +19,12 @@ const backend=[
 
 const Experience = () => {
     return (
-        <section className="h-screen w-full mt-24 md:mt-0">
-            <div className="text-center p-20">
-                <h1 className="font-semibold text-gray-500 text-sm">Explore my</h1>
+        <section className=" w-full mt-24">
+            <div className="text-center pb-10">
+                <h1 className="font-semibold text-gray-400 text-sm">Explore my</h1>
                 <h1 className="text-4xl font-bold">Experience</h1>
             </div>
-            <div className="md:flex justify-around space-x-2 space-y-2 ">
+            <div className="md:flex justify-around  space-y-2 ">
                 <div className="border-4 border-black min-w-96  p-4 ">
                     <h1 className="text-2xl font-bold text-center mb-6">Front end</h1>
                     <div className="grid grid-cols-2 grid-rows-3 gap-4">
