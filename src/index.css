@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
+ *{
+   scroll-behavior: smooth;
+   user-select: none;
+ }
   html, body {
     overflow-x: hidden;
-    background-color: black;
+    background-color: #090909;
     color: white;
+}
+
+.item {
+  width: 56%;
+  overflow: visible;
+  stroke: #f0c929;
+  stroke-width: 1;
+  stroke-linejoin: round;
+  stroke-linecap: round;
 }

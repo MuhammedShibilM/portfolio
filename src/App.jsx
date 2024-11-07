@@ -1,17 +1,18 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Home from "./components/Home";
+import About from "./pages/About";
+// import Contact from "./components/Contact";
+// import Service from "./components/Service";
+import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
   <>
+
   <Navbar/>
   <Home/>
   <About/>
-  <Experience/>
-  <Contact/>
+  {/* <Service/>
+  <Contact/> */}
   </>
   );
 }
